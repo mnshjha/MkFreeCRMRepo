@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="245.127" tests="12" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\ManishJavaWorkspace\FreeCRMTest\target\test-classes;D:\ManishJavaWorkspace\FreeCRMTest\target\classes;C:\Users\manish1185\.m2\repository\org\seleniumhq\selenium\selenium-java\3.13.0\selenium-java-3.13.0.jar;C:\Users\manish1185\.m2\repository\org\seleniumhq\selenium\selenium-api\3.13.0\selenium-api-3.13.0.jar;C:\Users\manish1185\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.13.0\selenium-chrome-driver-3.13.0.jar;C:\Users\manish1185\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.13.0\selenium-edge-driver-3.13.0.jar;C:\Users\manish1185\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.13.0\selenium-firefox-driver-3.13.0.jar;C:\Users\manish1185\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.13.0\selenium-ie-driver-3.13.0.jar;C:\Users\manish1185\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.13.0\selenium-opera-driver-3.13.0.jar;C:\Users\manish1185\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.13.0\selenium-remote-driver-3.13.0.jar;C:\Users\manish1185\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.13.0\selenium-safari-driver-3.13.0.jar;C:\Users\manish1185\.m2\repository\org\seleniumhq\selenium\selenium-support\3.13.0\selenium-support-3.13.0.jar;C:\Users\manish1185\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\manish1185\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\manish1185\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\manish1185\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\manish1185\.m2\repository\com\google\code\gson\gson\2.8.4\gson-2.8.4.jar;C:\Users\manish1185\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\manish1185\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\manish1185\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\manish1185\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\manish1185\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\manish1185\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\manish1185\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\manish1185\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\manish1185\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\manish1185\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\manish1185\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\manish1185\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\manish1185\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\manish1185\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\manish1185\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\manish1185\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\manish1185\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\manish1185\.m2\repository\org\apache\poi\poi-scratchpad\3.17\poi-scratchpad-3.17.jar;C:\Users\manish1185\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\manish1185\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\manish1185\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\manish1185\.m2\repository\org\apache\poi\ooxml-schemas\1.3\ooxml-schemas-1.3.jar;C:\Users\manish1185\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\manish1185\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\manish1185\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\manish1185\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\manish1185\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\manish1185\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\manish1185\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\manish1185\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\manish1185\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\manish1185\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\manish1185\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\manish1185\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\manish1185\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\manish1185\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\MANISH~1\AppData\Local\Temp\surefire4262644315413836326\surefirebooter5432561506858068721.jar C:\Users\manish1185\AppData\Local\Temp\surefire4262644315413836326 2018-07-13T14-23-10_111-jvmRun1 surefire3138312552121146226tmp surefire_05967158747188099134tmp"/>
+    <property name="surefire.test.class.path" value="D:\ManishJavaWorkspace\FreeCRMTest\target\test-classes;D:\ManishJavaWorkspace\FreeCRMTest\target\classes;C:\Users\manish1185\.m2\repository\org\seleniumhq\selenium\selenium-java\3.13.0\selenium-java-3.13.0.jar;C:\Users\manish1185\.m2\repository\org\seleniumhq\selenium\selenium-api\3.13.0\selenium-api-3.13.0.jar;C:\Users\manish1185\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.13.0\selenium-chrome-driver-3.13.0.jar;C:\Users\manish1185\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.13.0\selenium-edge-driver-3.13.0.jar;C:\Users\manish1185\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.13.0\selenium-firefox-driver-3.13.0.jar;C:\Users\manish1185\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.13.0\selenium-ie-driver-3.13.0.jar;C:\Users\manish1185\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.13.0\selenium-opera-driver-3.13.0.jar;C:\Users\manish1185\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.13.0\selenium-remote-driver-3.13.0.jar;C:\Users\manish1185\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.13.0\selenium-safari-driver-3.13.0.jar;C:\Users\manish1185\.m2\repository\org\seleniumhq\selenium\selenium-support\3.13.0\selenium-support-3.13.0.jar;C:\Users\manish1185\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\manish1185\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\manish1185\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\manish1185\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\manish1185\.m2\repository\com\google\code\gson\gson\2.8.4\gson-2.8.4.jar;C:\Users\manish1185\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\manish1185\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\manish1185\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\manish1185\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\manish1185\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\manish1185\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\manish1185\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\manish1185\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\manish1185\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\manish1185\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\manish1185\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\manish1185\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\manish1185\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\manish1185\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\manish1185\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\manish1185\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\manish1185\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\manish1185\.m2\repository\org\apache\poi\poi-scratchpad\3.17\poi-scratchpad-3.17.jar;C:\Users\manish1185\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\manish1185\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\manish1185\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\manish1185\.m2\repository\org\apache\poi\ooxml-schemas\1.3\ooxml-schemas-1.3.jar;C:\Users\manish1185\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\manish1185\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\manish1185\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\manish1185\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\manish1185\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\manish1185\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\manish1185\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\manish1185\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\manish1185\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\manish1185\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\manish1185\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\manish1185\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\manish1185\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\manish1185\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\manish1185"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="basedir" value="D:\ManishJavaWorkspace\FreeCRMTest"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\MANISH~1\AppData\Local\Temp\surefire4262644315413836326\surefirebooter5432561506858068721.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="user.name" value="manish1185"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\manish1185\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MANISH~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="user.dir" value="D:\ManishJavaWorkspace\FreeCRMTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\manish1185\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Java\jdk1.8.0_131/bin;C:\Program Files\Java\jdk1.8.0_131/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\SeleniumDrivers;C:\Program Files\nodejs\;C:\Users\manish1185\Desktop\Python_Scripts;C:\Users\manish1185\Desktop\Python_Exe;C:\Users\manish1185\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\manish1185\AppData\Local\Programs\Python\Python36-32\;C:\Users\manish1185\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\manish1185\AppData\Roaming\npm;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="loginPageTitleTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.011"/>
+  <testcase name="verifyHomePageTitleTest" classname="com.crm.qa.testcases.HomePageTest" time="0.009"/>
+  <testcase name="verifyContactsLabelTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0.043"/>
+  <testcase name="crmLogoImageTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.058"/>
+  <testcase name="verifyUserNameTest" classname="com.crm.qa.testcases.HomePageTest" time="0.086"/>
+  <testcase name="selectSingleContactsTest" classname="com.crm.qa.testcases.ContactsPageTest" time="10.432">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;aa aa&apos;]//parent::td[@class=&apos;datalistrow&apos;]//preceding-sibling::td[@class=&apos;datalistrow&apos;]//input[@name=&apos;contact_id&apos;]&quot;}&#10;  (Session info: chrome=67.0.3396.99)&#10;  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;MANISH1185&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\MANISH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}&#10;Session ID: 1029c46be5785c1a2c54ede008676e55&#10;*** Element info: {Using=xpath, value=//a[text()=&apos;aa aa&apos;]//parent::td[@class=&apos;datalistrow&apos;]//preceding-sibling::td[@class=&apos;datalistrow&apos;]//input[@name=&apos;contact_id&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='aa aa']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'MANISH1185', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\MANISH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1029c46be5785c1a2c54ede008676e55
+*** Element info: {Using=xpath, value=//a[text()='aa aa']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']}
+	at com.crm.qa.testcases.ContactsPageTest.selectSingleContactsTest(ContactsPageTest.java:46)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.freecrm.com/'
+Navigated to: 'https://www.freecrm.com/'
+Trying to find Element By: By.name: username
+Found Element By: By.name: username
+Value of the: [[ChromeDriver: chrome on XP (1029c46be5785c1a2c54ede008676e55)] -> name: username] before any changes made
+Element value changed to: [[ChromeDriver: chrome on XP (1029c46be5785c1a2c54ede008676e55)] -> name: username]
+Trying to find Element By: By.name: password
+Found Element By: By.name: password
+Value of the: [[ChromeDriver: chrome on XP (1029c46be5785c1a2c54ede008676e55)] -> name: password] before any changes made
+Element value changed to: [[ChromeDriver: chrome on XP (1029c46be5785c1a2c54ede008676e55)] -> name: password]
+Trying to find Element By: By.xpath: //input[@type='submit']
+Found Element By: By.xpath: //input[@type='submit']
+Value of the: [[ChromeDriver: chrome on XP (1029c46be5785c1a2c54ede008676e55)] -> xpath: //input[@type='submit']] before any changes made
+Element value changed to: [[ChromeDriver: chrome on XP (1029c46be5785c1a2c54ede008676e55)] -> xpath: //input[@type='submit']]
+Trying to find Element By: By.xpath: //a[contains(text(),'Contacts')]
+Found Element By: By.xpath: //a[contains(text(),'Contacts')]
+Clicked on: [[ChromeDriver: chrome on XP (1029c46be5785c1a2c54ede008676e55)] -> xpath: //a[contains(text(),'Contacts')]]
+Trying to click on: [[ChromeDriver: chrome on XP (1029c46be5785c1a2c54ede008676e55)] -> xpath: //a[contains(text(),'Contacts')]]
+Trying to find Element By: By.xpath: //a[text()='aa aa']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
+Found Element By: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='aa aa']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'MANISH1185', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\MANISH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1029c46be5785c1a2c54ede008676e55
+*** Element info: {Using=xpath, value=//a[text()='aa aa']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 28518
+Only local connections are allowed.
+Jul 13, 2018 2:24:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.crm.qa.testcases.LoginPageTest" time="7.092"/>
+  <testcase name="verifyContactsLinkTest" classname="com.crm.qa.testcases.HomePageTest" time="1.674"/>
+  <testcase name="selectMultipleContactsTest" classname="com.crm.qa.testcases.ContactsPageTest" time="10.369">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;aa aa&apos;]//parent::td[@class=&apos;datalistrow&apos;]//preceding-sibling::td[@class=&apos;datalistrow&apos;]//input[@name=&apos;contact_id&apos;]&quot;}&#10;  (Session info: chrome=67.0.3396.99)&#10;  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;MANISH1185&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\MANISH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}&#10;Session ID: 2e44c5cb9dde37f74f936c3aeba12d03&#10;*** Element info: {Using=xpath, value=//a[text()=&apos;aa aa&apos;]//parent::td[@class=&apos;datalistrow&apos;]//preceding-sibling::td[@class=&apos;datalistrow&apos;]//input[@name=&apos;contact_id&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='aa aa']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'MANISH1185', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\MANISH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 2e44c5cb9dde37f74f936c3aeba12d03
+*** Element info: {Using=xpath, value=//a[text()='aa aa']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']}
+	at com.crm.qa.testcases.ContactsPageTest.selectMultipleContactsTest(ContactsPageTest.java:51)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.freecrm.com/'
+Navigated to: 'https://www.freecrm.com/'
+Trying to find Element By: By.name: username
+Found Element By: By.name: username
+Value of the: [[ChromeDriver: chrome on XP (2e44c5cb9dde37f74f936c3aeba12d03)] -> name: username] before any changes made
+Element value changed to: [[ChromeDriver: chrome on XP (2e44c5cb9dde37f74f936c3aeba12d03)] -> name: username]
+Trying to find Element By: By.name: password
+Found Element By: By.name: password
+Value of the: [[ChromeDriver: chrome on XP (2e44c5cb9dde37f74f936c3aeba12d03)] -> name: password] before any changes made
+Element value changed to: [[ChromeDriver: chrome on XP (2e44c5cb9dde37f74f936c3aeba12d03)] -> name: password]
+Trying to find Element By: By.xpath: //input[@type='submit']
+Found Element By: By.xpath: //input[@type='submit']
+Value of the: [[ChromeDriver: chrome on XP (2e44c5cb9dde37f74f936c3aeba12d03)] -> xpath: //input[@type='submit']] before any changes made
+Element value changed to: [[ChromeDriver: chrome on XP (2e44c5cb9dde37f74f936c3aeba12d03)] -> xpath: //input[@type='submit']]
+Trying to find Element By: By.xpath: //a[contains(text(),'Contacts')]
+Found Element By: By.xpath: //a[contains(text(),'Contacts')]
+Clicked on: [[ChromeDriver: chrome on XP (2e44c5cb9dde37f74f936c3aeba12d03)] -> xpath: //a[contains(text(),'Contacts')]]
+Trying to click on: [[ChromeDriver: chrome on XP (2e44c5cb9dde37f74f936c3aeba12d03)] -> xpath: //a[contains(text(),'Contacts')]]
+Trying to find Element By: By.xpath: //a[text()='aa aa']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
+Found Element By: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='aa aa']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'MANISH1185', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\MANISH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 2e44c5cb9dde37f74f936c3aeba12d03
+*** Element info: {Using=xpath, value=//a[text()='aa aa']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 19562
+Only local connections are allowed.
+Jul 13, 2018 2:25:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="validateCreateNewContactTest" classname="com.crm.qa.testcases.ContactsPageTest" time="4.481"/>
+  <testcase name="validateCreateNewContactTest" classname="com.crm.qa.testcases.ContactsPageTest" time="4.327"/>
+  <testcase name="validateCreateNewContactTest" classname="com.crm.qa.testcases.ContactsPageTest" time="4.07"/>
+</testsuite>
